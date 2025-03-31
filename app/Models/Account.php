@@ -20,7 +20,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Account extends Model
 {
-    protected $guard = [];
+    protected $guarded = [];
 
     protected $hidden = ['password'];
 }
